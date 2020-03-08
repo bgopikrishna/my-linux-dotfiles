@@ -22,7 +22,7 @@ fi
 code --list-extensions --show-versions >> ../../vscode/extensions.txt
 
 # copy other dot files 
-cp -r $HOME/{.zshrc,.bashrc,.hyper.js,.oh-my-zsh} .
+cp -r $HOME/{.zshrc,.bashrc,.hyper.js} .
 
 
 
