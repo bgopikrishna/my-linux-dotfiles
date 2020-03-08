@@ -12,11 +12,11 @@ fi
 
 
 # copy Vs-Code files
-cp  $HOME/Library/Application\ 
-Support/Code/User/{keybindings.json,settings.json,spellright.dict} .
+# cp  $HOME/Library/Application\ 
+# Support/Code/User/{keybindings.json,settings.json,spellright.dict} .
 
-# copy snippets folder
-cp -r $HOME/Library/Application\ Support/Code/User/snippets .
+# # copy snippets folder
+# cp -r $HOME/Library/Application\ Support/Code/User/snippets .
 
 # copy list of extensions that currently installed
 code --list-extensions --show-versions >> ../../vscode/extensions.txt
