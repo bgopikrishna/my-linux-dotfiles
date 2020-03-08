@@ -19,10 +19,10 @@ fi
 # cp -r $HOME/Library/Application\ Support/Code/User/snippets .
 
 # copy list of extensions that currently installed
-code --list-extensions --show-versions >> ../../vscode/extensions.txt
+# code --list-extensions --show-versions >> ../../vscode/extensions.txt
 
 # copy other dot files 
-cp -r $HOME/{.zshrc,.bashrc,.hyper.js} .
+cp  $HOME/{.zshrc,.bashrc,.hyper.js} .
 
 
 
